@@ -233,6 +233,7 @@ z-index: 999;
     max-width: 100%;
     margin: 0;
     padding:0 50px;
+    overflow: hidden;
     
 }
 

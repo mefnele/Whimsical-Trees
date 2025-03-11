@@ -289,7 +289,7 @@ z-index: 999;
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        min-height: 100vh;
+        height: 2000px;
     }
 
     .main__content {
@@ -552,9 +552,6 @@ div.gallery {
     .gallery__container {
         grid-template-columns: repeat(1, 1fr); 
         /* 1 column on phones */
-        height: auto; /* Allow it to expand dynamically */
-        display: grid;
-        gap: 10px; /* Optional: Adds spacing between images */
     }
 }
  
@@ -568,7 +565,7 @@ div.gallery {
 
   .about .main__container h1 {
     font-size: 25px;
-    padding-top: 30px;;
+    padding-top: 30px;
     
 }   
 .about .main__content p {
@@ -591,7 +588,7 @@ div.gallery {
 
 @media only screen and (max-width: 768px){ 
 .about .main__content {
-   min-height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

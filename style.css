@@ -531,7 +531,11 @@ div.gallery {
   }
  
 
-
+/* General styles (apply to all screen sizes) */
+.gallery-wrapper {
+    height: auto;  /* Let it grow as needed */
+    overflow: visible; /* Ensure all images are shown */
+}
 
     
   /* Responsive Grid */
@@ -558,7 +562,7 @@ div.gallery {
         gap: 10px; /* Optional: Adds spacing between images */
     }
 }
-  
+ 
 
 
   .clearfix: after {

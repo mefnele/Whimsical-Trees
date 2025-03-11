@@ -141,7 +141,7 @@ z-index: 999;
     }
 
     .navbar__menu.active {
-        background: #131313;
+        background: #030350;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -187,7 +187,7 @@ z-index: 999;
     }
 
     .button{
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;

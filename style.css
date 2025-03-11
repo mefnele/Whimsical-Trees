@@ -235,6 +235,7 @@ z-index: 999;
     padding:0 50px;
     overflow: hidden;
     
+    
 }
 
 
@@ -282,7 +283,7 @@ z-index: 999;
 
 @media screen and (max-width: 768px) {
     .main__container {
-        display: grid ;
+        display: grid;
         grid-template-columns: auto;
         align-items: center;
         justify-self: center;
@@ -516,7 +517,7 @@ div.gallery {
   }
   
   div.gallery img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 4px;
     display: block;
@@ -530,12 +531,6 @@ div.gallery {
     font-family: cursive;
   }
  
-
-/* General styles (apply to all screen sizes) */
-.gallery__wrapper {
-    height: auto;  /* Let it grow as needed */
-    overflow: visible; /* Ensure all images are shown */
-}
 
     
   /* Responsive Grid */

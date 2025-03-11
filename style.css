@@ -240,7 +240,7 @@ z-index: 999;
 
 
 .main__content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: cursive;
     background-color: #002fff;
     background-image: linear-gradient(to top,  
@@ -250,14 +250,14 @@ z-index: 999;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    position: relative;
+    position: center;
 
   
     
 }
 
 .main__content h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #eed3ff;
     background-image: linear-gradient(to top,
      #493fff 0%,,#CCCCFF );
@@ -271,7 +271,7 @@ z-index: 999;
 
 .main__content p {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #fff;
     font-family: monospace;
     padding-bottom: 20px;
@@ -481,7 +481,7 @@ div.gallery {
   
   div.desc {
     padding: 5px;
-    text-align: left;
+    text-align: center;
     color: #fff;
     font-size: 15px;
     font-family: cursive;

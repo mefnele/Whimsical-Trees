@@ -10,7 +10,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: auto;
-    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -628,9 +628,5 @@ div.gallery {
 font-size: 25px;
 padding-top: 150px;
  } 
-  } 
+  }
 
-    @media only screen and (max-width: 500px){ 
-    .about .main__container p 
-    font-size: 15px;
-    }

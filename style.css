@@ -142,12 +142,12 @@ z-index: 999;
     }
 
     .navbar__menu.active {
-        background: #030350;
+        background: 141414;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
+        height: 20vh;
         font-size: 1.6rem;
      
     }

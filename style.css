@@ -535,21 +535,21 @@ div.gallery {
     
   /* Responsive Grid */
   @media only screen and (max-width: 1024px) {
-    .gallery-container {
+    .gallery__container {
         grid-template-columns: repeat(4, 1fr); 
         /* 4 columns on medium screens */
     }
 }
   
 @media only screen and (max-width: 780px) {
-    .gallery-container {
+    .gallery__container {
         grid-template-columns: repeat(2, 1fr); 
         /* 2 columns on small screens */
     }
 }
  
 @media only screen and (max-width: 500px) {
-    .gallery-container {
+    .gallery__container {
         grid-template-columns: repeat(1, 1fr); 
         /* 1 column on phones */
     }
@@ -557,7 +557,7 @@ div.gallery {
   
 
 
-  .clearfix:after {
+  .clearfix: after {
     content: "";
     display: table;
     clear: both;

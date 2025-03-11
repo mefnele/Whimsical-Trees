@@ -532,7 +532,7 @@ div.gallery {
  
 
 /* General styles (apply to all screen sizes) */
-.gallery-wrapper {
+.gallery__wrapper {
     height: auto;  /* Let it grow as needed */
     overflow: visible; /* Ensure all images are shown */
 }

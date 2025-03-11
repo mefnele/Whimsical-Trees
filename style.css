@@ -289,7 +289,7 @@ z-index: 999;
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 2000px;
+        height: auto;
     }
 
     .main__content {
@@ -329,51 +329,6 @@ z-index: 999;
         font-size: 1.5rem;
 }
 }
-
-/* Services Section CSS */
-
-.services {
-    background: #141414;
-    display: flex;
-    align-items: center;
-    height: 200vh;
-
- 
-}
-
-.services h1 {
-    background-color:#493fff;
-    background-image: linear-gradient
-    (to right,
-    #CCCCFF 52%,
-    #8181f5 21%,
-    #493fff 0%,
-    #0303a9 78%,  
-    #030350 100%
-    );
-
-    background-size: 100%;
-    margin-bottom: 5rem;
-    font-size: 2rem;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-   
-}
-
-.services__container {
-    
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap; 
-   width: 100%;
-   max-width: 100%;
-   
-}
-
-
-
 
 
 /*Footer CSS*/
